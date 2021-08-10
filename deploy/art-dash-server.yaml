@@ -60,7 +60,7 @@ items:
     runPolicy: Serial
     source:
       git:
-        ref: master
+        ref: update_deployment
         uri: https://github.com/sosiouxme/art-dashboard-server
       type: Git
     strategy:
