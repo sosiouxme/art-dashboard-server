@@ -46,8 +46,13 @@ SECRET_KEY = os.getenv(
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['buildinterfaceserver-art-build-dev.cloud.paas.psi.redhat.com', '127.0.0.1', 'localhost',
-                 'buildinterfaceserver-art-jenkins.cloud.paas.psi.redhat.com']
+ALLOWED_HOSTS = [
+    '127.0.0.1', 'localhost',
+    'buildinterfaceserver-art-build-dev.cloud.paas.psi.redhat.com',
+    'buildinterfaceserver-art-jenkins.cloud.paas.psi.redhat.com',
+    'art-dash-server-aos-art-web.apps.ocp4.prod.psi.redhat.com',
+    'art-dash-server-art-build-dev.apps.ocp4.prod.psi.redhat.com',
+]
 
 
 # Application definition
